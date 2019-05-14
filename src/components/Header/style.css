@@ -8,3 +8,57 @@
     width: 133px;
 
 }
+
+.mdl-cell--6-col {
+    padding-left: 10px;
+}
+
+.image {
+    margin-left: -20px;
+
+}
+
+.mdl-grid- {
+    background-color:lightgray;
+}
+
+.mdl-grid-2 {
+    margin-top: 20px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.mdl-card__actions {
+    background-color: #252e7c;
+}
+
+.mdl-button.mdl-button--colored {
+    color: white!Important;
+}
+
+body {
+    background: 	 #f2f2f2;
+}
+
+.mdl-card--expand{
+    background: #f2f2f2;
+}
+
+.price {
+    background-color: #252e7c;
+    color: white;
+    border-radius: 1px;
+    
+}
+
+.lupa {
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 1px;
+    } 
+
+.lista {
+
+}
