@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Container, Row } from 'react';
 
 import axios from 'axios';
 import { Link } from 'react-router-dom';
@@ -27,38 +27,47 @@ class Search extends Component {
 
     renderItem(item) {
         return (
-            <div class="lista">
-            <li key={ item.id }>
-                <span>{ item.id }</span>
-                <span>{ item.title }</span>
-                <Link 
+            <div class="lista mdl-grid-2 ">
+            
+            <li  key={ item.id }>
+                <div class=" mdl-cell--6-col">
+                <div><img class="thumb" src={item.thumbnail}></img></div>
+                </div>
+                
+                <div class="mdl-cell mdl-cell--6-col">
+                <div class="prodtitle">{ item.title }</div>
+                
+                <div class="botao"><Link 
                     to={ `/product/${item.id}` }
                     >
 
                 Abrir Produto
                  
                 </Link>
+
+                </div> 
+                </div>
+                
             </li>
             </div>
         )
     }
 
     render() {
+        
         return (
-            <div>
-               
-                <div class=" mdl-cell mdl-cell--6-col">
-                
-                Procurar:
-                
-                </div>
-
-                <div class=" mdl-cell mdl-cell--4-col">
+            <div class="busca">
+                    <div>     
+            
                     <div align="center" class="lupa">
-                        <input size="50" type="text" onChange={ this.onSearch } />
-                    </div>
+                        
+                        <input 
+                            size="40"  
+                            type="text" 
+                            placeholder="Buscar Produto" 
+                            onChange ={ this.onSearch } />
                 </div>
-
+                </div>  
                 <ul>
                     { this.state.results.map(this.renderItem) }
                 </ul>
