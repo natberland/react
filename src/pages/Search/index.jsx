@@ -1,4 +1,4 @@
-import React, { Component, Container, Row } from 'react';
+import React, { Component } from 'react';
 
 import axios from 'axios';
 import { Link } from 'react-router-dom';
@@ -34,7 +34,7 @@ class Search extends Component {
             
             <li  key={ item.id }>
                 <div  align="center">
-                    <div><img class="thumb" src={item.thumbnail}></img></div>
+                    <div><img src={item.thumbnail}></img></div>
                 </div>
                 
                 <div align="center">
