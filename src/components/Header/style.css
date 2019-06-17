@@ -9,17 +9,10 @@
 
 }
 
-.mdl-cell--6-col {
-    padding-left: 10px;
-}
-
-.image {
-    margin-left: -20px;
-
-}
 
 .mdl-grid- {
     background-color:lightgray;
+    align-items: center;
 }
 
 .mdl-grid-2 {
@@ -27,6 +20,7 @@
     border: 1px solid lightgray;
     border-radius: 3px;
     background-color: white;
+    align-items: center;
 }
 
 .mdl-card__actions {
@@ -48,17 +42,67 @@ body {
 .price {
     background-color: #252e7c;
     color: white;
-    border-radius: 1px;
+    border-radius: 3px;
     
 }
 
+    
 .lupa {
     margin-top: 30px;
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 1px;
-    } 
 
-.lista {
+    }
 
+.layhor {
+    align-self: auto;
+    align-content: center;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: normal;
+    
 }
+
+.botao {
+    background-color: #252e7c;
+    color: white;
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 20px;
+    display: block;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
+.busca{
+    background-color: #fff159;
+    align-content: center;
+}
+
+.lista{
+    background-color: white;
+    text-decoration: none;
+    align-content: center;
+    text-align: center;
+    align-content: center;
+    margin-right: 5px;
+}
+
+.prodtitle{
+    font-size: 120%;
+    font-weight: 500;
+    display: block;
+}
+
+a {
+    color: #f2f2f2!Important;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: -35px;
+    }

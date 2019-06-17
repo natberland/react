@@ -1,6 +1,8 @@
 {
   "short_name": "React App",
   "name": "Create React App Sample",
+  "description": "React do Mercado Livre",
+  
   "icons": [
     {
       "src": "favicon.ico",
@@ -13,3 +15,5 @@
   "theme_color": "#000000",
   "background_color": "#ffffff"
 }
+
+
